@@ -6,5 +6,5 @@ spring:
 opentracing: 
   jaeger:
     udp-sender:
-      host: localhost
-      port: 6831
+      host: ${JAEGER_HOST}
+      port: ${JAEGER_PORT}
